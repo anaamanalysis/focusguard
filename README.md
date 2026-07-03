@@ -8,12 +8,12 @@ data-driven feedback on their attention habits.
 ## 🚨 What It Detects
 - 📱 Phone picked up during focus time
 - 🚶 You leaving your desk for more than 10 seconds
-- ⏰ Schedule-aware — only monitors during YOUR focus blocks
+- ⏰ Schedule-aware ,only monitors during YOUR focus blocks
 
 ## 📊 What It Shows You
 - Real-time alerts the moment distraction is detected
 - Daily focus score (0–100) based on distraction count
-- Hourly distraction timeline — when are you most distracted?
+- Hourly distraction timeline : when are you most distracted?
 - Weekly trend — are you actually improving?
 - Motivational feedback based on your session performance
 
@@ -58,3 +58,23 @@ In the dashboard sidebar, add your focus blocks
 during these times.
 
 ## 📁 Project Structure
+FocusGuard/
+├── detector.py      # Core engine — camera + YOLO + MediaPipe
+├── logger.py        # Saves distraction events to CSV
+├── scheduler.py     # Schedule logic — when to monitor
+├── alert.py         # Fires alerts when distraction detected
+├── app.py           # Streamlit focus dashboard
+├── focus_log.csv    # Auto-created distraction log
+└── requirements.txt # All dependencies
+
+## 💡 Why I Built This
+Most productivity tools tell you to focus. This one watches 
+whether you actually do — and shows you the data. Built as 
+a real-world computer vision project combining object detection, 
+face detection, event logging, and data visualisation in one 
+locally-running application.
+
+## 👩‍💻 Author
+**Anaam Bind Hussain** — BTech AI & Data Science, Final Year  
+[GitHub](https://github.com/anaamanalysis) | 
+[FocusGuard](http://localhost:8501/)

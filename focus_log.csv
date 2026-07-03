@@ -1,0 +1,9 @@
+date,time,hour,event_type
+2026-07-03,10:27:34,10,left_desk
+2026-07-03,10:28:40,10,phone_detected
+2026-07-03,10:28:46,10,phone_detected
+2026-07-03,10:29:15,10,phone_detected
+2026-07-03,10:33:06,10,phone_detected
+2026-07-03,10:35:43,10,phone_detected
+2026-07-03,10:36:29,10,phone_detected
+2026-07-03,10:36:34,10,phone_detected
